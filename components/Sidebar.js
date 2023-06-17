@@ -18,7 +18,7 @@ export default function Sidebar({ items, selectedComponent }) {
                   });
                 }}
                 value={item.title}
-                className="bg-pink-200 p-2"
+                className="bg-pink-200 p-2 hover:bg-pink-100 cursor-pointer"
               >
                 {item.title}
               </div>
