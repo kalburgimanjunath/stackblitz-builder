@@ -1,7 +1,8 @@
+import React, { useState } from 'react';
 export default function index() {
   return (
     <div>
-      <input type="text" />
+      <h1 className="font-bold text-2lg">Hero</h1>
     </div>
   );
 }
