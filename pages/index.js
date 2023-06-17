@@ -26,13 +26,14 @@ export default function Home() {
       title: 'Label',
     },
   ];
-  const [newcomponents, setComponents] = useState([]);
+  const [newcomponents, setComponents] = useState(InitialValue);
 
   useEffect(() => {});
   return (
-    <div className="grid grid-cols-2 md:grid-cols-2 bg-gray-200">
+    <div className="grid grid-cols-2 md:grid-cols-2 bg-gray-200 gap-4 w-full">
       <Sidebar items={sidebarComponent} selectedComponent={setComponents} />
       <CanvasArea listcomponents={newcomponents} />
+      
     </div>
   );
 }
