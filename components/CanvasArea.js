@@ -1,5 +1,5 @@
 export default function CanvasArea({ listcomponents }) {
-  console.log(listcomponents);
+  // console.log(listcomponents);
   return (
     <div>
       {listcomponents &&
