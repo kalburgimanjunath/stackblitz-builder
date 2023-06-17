@@ -6,10 +6,12 @@ export default function Home() {
     {
       id: 1,
       title: 'TextBox',
+      type: 'textbox',
     },
     {
       id: 2,
       title: 'Label',
+      type: 'label',
     },
   ];
   const InitialValue = [
